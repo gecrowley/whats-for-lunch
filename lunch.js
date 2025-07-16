@@ -15,16 +15,16 @@
 
 function whatToDoForLunch(hungry, availableTime) {
 
-   if (hungry === true)
-     if (availableTime <20)
-       console.log("You should pick up a snack or grab something you have ready at home.")
-     if (availableTime >=20 && availableTime <30)
-       console.log("You deserve a break and should take time to cook a tasty meal.")
-    if (availableTime >30)
-       console.log("You should reconsider; this is an intense program, after all.")
-       else
-         console.log ("Wait until you're hungry to eat")
- }
+  if (hungry === true)
+    if (availableTime < 20)
+      console.log("You should pick up a snack or grab something you have ready at home.");
+  if (availableTime >= 20 && availableTime < 30)
+    console.log("You deserve a break and should take time to cook a tasty meal.");
+  if (availableTime > 30)
+    console.log("You should reconsider; this is an intense program, after all.");
+  else
+    console.log("Wait until you're hungry to eat");
+}
 
 
 /*
